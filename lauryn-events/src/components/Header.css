@@ -1,6 +1,27 @@
-.header {
+/* .header {
     background-color: #fff;
     padding: 20px;
     text-align: center;
-  }
+  } */
   
+  /* Header.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-image: url('../assets/Lauryn-logo-image.jpg'); /* Adjust path as necessary */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white; /* Set text color for contrast */
+  text-align: center;
+  height: 200px; /* Adjust this height to make it more rectangular */
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional background for better text contrast */
+  padding: 10px 20px;
+  border-radius: 5px;
+}

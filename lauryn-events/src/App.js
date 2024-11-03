@@ -36,6 +36,10 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import PrivateEvents from './pages/PrivateEvents';
 import MarketingAndBranding from './pages/MarketingAndBranding';
+import Contact from './pages/Contact';
+import About from './pages/About';
+import LegalConditions from './pages/LegalConditions';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 function App() {
   return (
@@ -44,7 +48,7 @@ function App() {
       <Navbar />
       <div className="content">
         <Routes>
-          <Route path="/" element={<h2>Welcome to Lauryn & Co. Prestige Events!</h2>} />
+        <Route path="/" element={<h2 className="welcome-message">Welcome to Lauryn & Co. Prestige Events! The Best Events in the French Riviera</h2>} />
           <Route path="/private-events" element={<PrivateEvents />} />
           <Route path="/marketing-and-branding" element={<MarketingAndBranding />} />
           <Route path="/private-events/marriage-proposal" element={<h2>Marriage Proposal</h2>} />
@@ -62,8 +66,10 @@ function App() {
           <Route path="/marketing-and-branding/invitations" element={<h2>Invitations</h2>} />
           <Route path="/marketing-and-branding/branding-packages" element={<h2>Event Branding Packages</h2>} />
           <Route path="/portfolio" element={<h2>Portfolio Page</h2>} />
-          <Route path="/contact" element={<h2>Contact Page</h2>} />
-          <Route path="/about" element={<h2>About Us</h2>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/legal-conditions" element={<LegalConditions />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
       </div>
       <Footer />

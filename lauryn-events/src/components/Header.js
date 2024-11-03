@@ -5,7 +5,7 @@ import './Header.css';
 const Header = () => (
   <header className="header">
     {/* <img src={logo} alt="Lauryn & Co. Logo" className="logo" /> */}
-    <h1>Welcome to Lauryn & Co. Prestige Events</h1>
+    {/* <h1>Lauryn & Co. Prestige Events - The Best Events in French Riviera</h1> */}
   </header>
 );
 

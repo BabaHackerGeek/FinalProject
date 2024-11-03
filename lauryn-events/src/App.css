@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.welcome-message {
+  text-align: center;
+  color: #8B0000; /* Dark raspberry color */
+  margin-top: 20px;
+  font-size: 1.5rem;
+  padding: 20px; /* Optional for spacing */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Optional for full viewport center */
+}
