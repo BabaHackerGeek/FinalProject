@@ -27,7 +27,7 @@ const Contact = () => {
 
   return (
     <div className="contact-container">
-      <h2>Contact Us</h2>
+      <h2>Contact Form</h2>
       <form onSubmit={handleSubmit} className="contact-form">
         <label>First Name</label>
         <input 
@@ -95,6 +95,20 @@ const Contact = () => {
           <option value="wedding">Wedding</option>
           <option value="private-event">Private Event</option>
           <option value="professional-event">Professional Event</option>
+        </select>
+
+        <label>What is your event budget?</label>
+        <select 
+          name="budget" 
+          value={formData.budget} 
+          onChange={handleChange} 
+          required
+        >
+          <option value="">Select an option</option>
+          <option value="option1">$75-$100K</option>
+          <option value="option2">$100-$150K</option>
+          <option value="option3">$150-$250K</option>
+          <option value="option4">$250K+</option>
         </select>
 
         <label>Estimated Number of Guests</label>

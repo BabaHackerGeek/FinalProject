@@ -25,7 +25,7 @@ const LegalConditions = () => (
     <p>The Site may contain links to external websites. Lauryn & Co. is not responsible for the content, advertising, or products on external sites. Links to our Site are permitted as long as the source site contains no illegal or offensive content.</p>
 
     <h3>Article 7: Personal Data</h3>
-    <p>Lauryn & Co. respects your privacy and adheres to applicable data protection laws. Personal data collected through the Site (name, email, phone number, address) is used for contact and site management purposes. For data requests, please contact us at lauryneventspersonnaldata@gmail.com.</p>
+    <p>Lauryn & Co. respects your privacy and adheres to applicable data protection laws. Personal data collected through the Site (name, email, phone number, address) is used for contact and site management purposes. For data requests, please contact us at LaurynPersonnalData@gmail.com.</p>
 
     <h3>Article 8: Cookies</h3>
     <p>Our Site uses cookies to enhance user experience. Please refer to our Privacy Policy for more information.</p>
