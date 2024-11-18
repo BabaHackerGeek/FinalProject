@@ -82,3 +82,9 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
+app.use(express.static(path.resolve(__dirname, "../lauryn-events/build")));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "../lauryn-events/build", "index.html"));
+});
